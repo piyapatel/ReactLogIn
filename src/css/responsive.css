@@ -1,0 +1,20 @@
+@media (max-width:575px) {
+    .custom-row.row {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0 2px;
+        grid-gap: 13px;
+    }
+    .custom-li {
+        padding: 0;
+    }
+    .custom-card {
+        padding: 23px 15px;
+    }
+}
+
+@media (max-width:375px) {
+    .custom-row.row{
+        grid-template-columns: 1fr 1fr;
+    }
+}
